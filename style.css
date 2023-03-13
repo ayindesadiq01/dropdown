@@ -217,7 +217,7 @@ margin-top: 5em;
  width: 40%;
 }
 .image-hero {
- display: none;
+ /* display: none; */
 }
 
 @media (max-width: 375px) {
