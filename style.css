@@ -29,9 +29,15 @@ ul li a:hover {
 .upper {
  display: flex;
  justify-content: space-between;
+ width: 100%;
+}
+.logo {
+  width: 10%;
 }
 .bar {
+  width: 90%;
  display: flex;
+ justify-content: space-between;
 }
 .menu-bar {
  position: relative;
