@@ -13,7 +13,11 @@ const overlay =  document.querySelector('.overlay');
 
 for(let i=0; i < dropDown.length; i++ ) {
 dropDown[i].addEventListener('click', function(){
- dropContent.classList.toggle('hidden');
+ if(dropContent[i].classList.contains('hidden')) {
+  dropContent[i].classList.remove('hidden')
+ } else {
+  dropContent[i].classList.add('hidden')
+ }
 })
 }
 

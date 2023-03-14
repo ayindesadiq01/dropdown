@@ -104,9 +104,10 @@ ul li a:hover {
   flex-direction: column;
   background-color: white;
   width: 70%;
-  height: 112vh;
+  height: 555px;
+  /* border-radius: 5px; */
   position: absolute;
-  top: -12px;
+  top: 0px;
   right: 0px;
   padding: 1em;
   z-index: 20;
@@ -171,7 +172,7 @@ ul li a:hover {
  top: 0%;
  left: 0;
  width: 100%;
- min-height: 110vh;
+ min-height: 555px;
  background-color: rgba(95, 90, 90, 0.6);
  backdrop-filter: blur(1px);
  z-index: 5;
